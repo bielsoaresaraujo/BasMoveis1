@@ -41,20 +41,28 @@ color: white;
         text-align: center;
     }
     
-     
-    @media screen and (max-width: 768px) {
-        footer, a, section, aside{
-            width: 100%;
-            padding: 100px;
+      @media (max-width: 768px) {
+        section {
+            padding: 10px;
         }
-    
+
+        section h2 {
+            font-size: 30px;
+        }
+
+        footer img {
+            width: 200px;
+            height: 200px;
+        }
     }
-    
-    @media screen and (max-width: 600px) {
-        section, aside, footer, a, {
-            float: none;
-            text-align: center;
-            width: 100px;
-        
+
+    @media (max-width: 480px) {
+        section h2 {
+            font-size: 25px;
+        }
+
+        footer img {
+            width: 25px;
+            height: 25px;
         }
     }
