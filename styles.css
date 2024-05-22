@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(7, 33, 52);
+           
+            color: aqua;
+         
+        }
+        h1 {
+          display: flex;
+        justify-content: center;
+        unicode-bidi: isolate-override;
+        }
+        H3 {
+color: white;
+        }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        unicode-bidi: isolate-override;
+    }
+    footer ul {
+        display: flex;
+        justify-content: center;
+        unicode-bidi: isolate-override;
+    }
+    
+    footer img {
+        width: 200px;
+        height: 200px; 
+        border-radius: 50px;  
+        border: 5px solid  rgb(7, 33, 52); 
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer a {
+        margin: 20px;
+        text-align: center;
+    }
+    
+     
+    @media screen and (max-width: 768px) {
+        section, aside{
+            width: 100%;
+            padding: 100px;
+        }
+    
+    }
+    
+    @media screen and (max-width: 600px) {
+        footer a p {
+            float: none;
+            text-align: center;
+            width: 100px;
+        
+        }
+    }
